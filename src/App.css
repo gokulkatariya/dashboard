@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mygrid {
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+}
+
+.mygrid2 {
+  grid-template-columns: 4fr 2fr;
+}
